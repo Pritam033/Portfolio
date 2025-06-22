@@ -477,11 +477,6 @@ form textarea {
         font-size: 22px;
     }
 
-    /* .btn,
-    .btn2 {
-        font-size: 20px;
-        padding: 12px 60px;
-    }*/
     .contact-right form {
     max-width: 600px;
     margin-left: auto;
@@ -548,5 +543,20 @@ form textarea {
 
   .nav-list li {
     margin: 10px 0;
+    text-align: center;
   }
+  
+  #close-menu {
+    display: block;
+  }
+}
+
+.menu-toggle.active span:nth-child(1) {
+  transform: rotate(45deg) translate(5px, 5px);
+}
+.menu-toggle.active span:nth-child(2) {
+  opacity: 0;
+}
+.menu-toggle.active span:nth-child(3) {
+  transform: rotate(-45deg) translate(6px, -6px);
 }
