@@ -19,7 +19,7 @@ body {
     display: flex;
     flex-direction: column;
     justify-content: flex-start; /* Ensures content starts from top */
-    background-image: url(images/pic.png);
+    background-image: url(images/pic2.png);
     background-size: contain;
     background-position: right;
     background-repeat: no-repeat;
