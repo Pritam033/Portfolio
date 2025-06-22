@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style1.css">
+    <!-- Font Awesome CDN for social icons -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+    <script src="script.js"></script>
+</head>
+<body>
+    <section id="header">
+        <div class="container">
+            <nav>
+                <div class="heading">
+                <h1>My Portfolio Website</h1>
+                <div class="nav-list">
+                <ul >
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#skills">Skills</a></li>
+                    <li><a href="#projects">Projects</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+                </div>
+            </nav>
+            <div class="header-text">
+                <!-- <p> Aspiring Data Scientist</p> -->
+                <h1>Hi, I'm <span>Pritam Som</span><br> From India</h1>
+            </div>
+        </section>
+    </div>
+
+    <div id="about">
+    <div class="container">
+        <div class="row">
+            <div class="column1">
+                <img src="images/pritam1.jpg">
+                </div>
+        <div class="column2">       
+    <section>
+    <h2>About Me</h2>
+    <p>
+        Hello! I’m Pritam a passionate and results-driven data science enthusiast with a strong foundation in statistics, machine learning, and programming. I enjoy turning complex data into actionable insights and building intelligent systems that solve real-world problems.
+
+With experience in tools like Python, SQL, and frameworks such as Pandas, Scikit-learn, TensorFlow, and Power BI, I’ve worked on a variety of projects ranging from predictive modeling to data visualization and natural language processing.
+
+My approach to data science blends analytical rigor with creative problem-solving. Whether it's cleaning messy datasets, building accurate models, or visualizing findings for stakeholders, I strive to make data meaningful and impactful.
+
+When I’m not working with data, I enjoy [optional: reading about AI trends, exploring open-source projects, or participating in hackathons].
+
+Feel free to explore my projects and connect with me!</p>
+    </p>
+</section>
+<div class="tab-titles">
+    <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+    <p class="tab-links" onclick="opentab('Education')">Education</p>
+
+</div>
+<div class="tab-contents active-tab" id="skills">
+    <ul>
+        <li><span>Programming Languages:</span><br>Python, R, SQL</li>
+        <li><span>Libraries & Tools:</span> <br>NumPy, Pandas, Scikit-learn, Matplotlib, Seaborn</li>
+        <li><span>Machine Learning:</span> <br>Regression, Classification, Clustering, Random Forest, SVM</li>
+        <li><span>Data Wrangling:</span> <br>Data cleaning, Missing value handling, Feature engineering</li>
+        <li><span>Data Visualization:</span> <br>Power BI, Matplotlib, Seaborn, Plotly</li>
+
+    </ul>
+</div>
+<div class="tab-contents" id="Education">
+    <ul>
+        <li><span>Bsc</span><br>in Computer Science (Calcutta University, 2023-2027) </li>
+    </ul>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<!-- ✅ Projects Section -->
+<section id="projects">
+    <div class="container">
+        <h2>My Projects</h2>
+
+        <!-- 🔹 Text Cards for Each Project -->
+        <div class="project-grid">
+            <div class="project-card">
+                <img src="images/house.jpg" alt="House Price Prediction">
+                <h3>House Price Prediction</h3>
+                <p>ML model using Linear Regression & Random Forest to predict housing prices based on key features.</p>
+            </div>
+            <div class="project-card">
+                <img src="images/frace recognition.jpg" alt="Face Recognition System">
+                <h3>Face Recognition System</h3>
+                <p>Real-time face recognition system using Python, OpenCV, and Haar cascades for secure ID matching.</p>
+                 <a href="https://github.com/Pritam033" target="_blank"><br> View GitHub<i class="fab fa-github"></i></a>
+
+            </div>
+        </div>
+        <a href="#projects" class="btn">See More</a>
+    </div>
+</section>
+
+<!--Contact-->
+
+<div id="contact">
+    <div class="container">
+        <div class="row">
+            <div class="contact-left">
+                <h1 class="sub-title">Contact Me</h1>
+                <p><i class="fas fa-envelope"></i> <a href="mailto:pritamsom334@gmail.com">pritamsom334@gmail.com</a></p>
+
+                <p><i class='fas fa-phone'></i>+91-7439910957</p>
+
+            <div class="social-media">
+
+            <a href="https://wa.me/917439910957" target="_blank"><i class="fab fa-whatsapp"></i></a>
+            <a href="https://github.com/Pritam033/python_projectt" target="_blank"><i class="fab fa-github"></i></a>
+            <a href="https://www.facebook.com/profile.php?id=100074623814132" target="_blank"><i class="fab fa-facebook-f"></i></a>
+            <a href="https://instagram.com/somthingpritam" target="_blank"><i class="fab fa-instagram"></i></a>
+            <a href="https://www.linkedin.com/in/pritam-som-465b56351/?trk=public-profile-join-page" target="_blank"><i class="fab fa-linkedin-in"></i></a>
+    </div>
+        <a href="images/Pritam_Som_CV_Styled (2).pdf" download class="btn btn2">Download CV</a>
+            </div>
+            <div class="contact-right">
+                <form name="submit-to-google-sheet" >
+                    <input type="text" name="Name" placeholder="Your Name" required>
+                    <input type="email" name="email" placeholder="Your Email" required>
+                    <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                    <button type="submit"class="btn btn2">Submit</button>
+                </form>
+                <span id="msg"></span>
+            </div>
+
+        </div>
+    </div>
+</div>
+<!-- ✅ Social Media Section -->
+<footer>
+    <!-- ✅ Copyright -->
+    <p class="copyright">© 2025 Pritam Som | Data Science Portfolio</p>
+</footer>
+<script>
+  // JavaScript
+const scriptURL = 'https://script.google.com/macros/s/AKfycbwa7nbNHwoEBJZ2r_YMew7XAMWms7CXyRZgmbIVBHc8dUax2tpvutgJHSpCRnJKab7y/exec';
+const form = document.forms['submit-to-google-sheet'];
+const msg = document.getElementById("msg"); // Corrected: getElementById
+
+form.addEventListener('submit', e => {
+  e.preventDefault();
+  fetch(scriptURL, { method: 'POST', body: new FormData(form) })
+    .then(response => {
+      msg.innerHTML = "Message Sent Successfully";
+      setTimeout(() => {
+        msg.innerHTML = "";
+      }, 5000); // Clears message after 5 seconds
+      form.reset(); // Optional: reset form after submission
+    })
+    .catch(error => {
+      console.error('Error!', error.message);
+      msg.innerHTML = "Something went wrong. Please try again.";
+    });
+});
+
+
+
+</script>
+</body>
+</html>
