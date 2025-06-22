@@ -45,13 +45,25 @@ body {
     padding-top: 20px; 
 }
 
-.heading{
+.left{
     width:800px;
+    align-content: left;
+    top:0;
+}
+.left h1{
+    
+    margin-top: 25px;
+    
 }
   .nav-list{
     position: fixed;
     padding-left: 50%;
+    top:0;
+    margin-top:25px;
+    right:0;
+    margin-right: 35px;
 }
+
 nav h1 {
     font-size: 28px;
     color: #fff;
@@ -60,6 +72,7 @@ nav h1 {
 nav ul {
     display: flex;
     list-style: none;
+   
 }
 
 nav ul li {
@@ -72,6 +85,7 @@ nav ul li a {
     font-weight: bold;
     position: relative;
     display:inline-block;
+    margin-bottom: 20px;
     font-size: 20px;
     transition: color 0.3s;
 } 
@@ -93,7 +107,7 @@ nav ul li a:hover::after {
 
 /* Header Text */
 .header-text {
-    margin-top: 120px;
+    margin-top: 130px;
     max-width: 600px;
     font-size: 24px;
 }
@@ -161,7 +175,6 @@ nav ul li a:hover::after {
     background: #ff004f;
     cursor:pointer
 }
-
 
 
 .tab-titles{
@@ -238,7 +251,10 @@ footer {
     background: #111;
     margin-top: 3rem;
 }
-
+.social-media{
+    margin-top: 20px;
+    margin-right: 10px;
+}
 .social-media a {
     margin: 0 15px;
     text-decoration: none;
@@ -274,7 +290,7 @@ footer .copyright {
 .btn .btn2{
     display: inline-block;
     background: #ff004f;
-    display: left;
+    left:0;
 }
 
  .contact-right form {
@@ -335,9 +351,19 @@ form textarea {
         align-items: flex-start;
     }
 
-    .heading {
+    .left {
         width: 100%;
         font-size: 1.8rem;
+    }
+    .left h1{
+         padding: 20px 0;
+         bottom:40px;
+         margin-bottom: 10%;
+         position:relative;
+    }
+
+    .menu-toggle{
+       bottom:50px;
     }
 
     .nav-list {
@@ -345,7 +371,6 @@ form textarea {
         padding-left: 0;
         font-size: 30px;
         width: 100%;
-        margin-top: 15px;
     }
 
     .nav-list ul {
@@ -360,7 +385,7 @@ form textarea {
     }
 
     .header-text {
-        margin-top: 120px;
+        margin-top: 400px;
         font-size: 18px;
     }
 
@@ -545,12 +570,13 @@ form textarea {
     margin: 10px 0;
     text-align: center;
   }
-  
-  #close-menu {
+  #close-menu{
     display: block;
   }
 }
-
+.close-menu{
+    display: none;
+}
 .menu-toggle.active span:nth-child(1) {
   transform: rotate(45deg) translate(5px, 5px);
 }
