@@ -19,7 +19,7 @@ body {
     display: flex;
     flex-direction: column;
     justify-content: flex-start; /* Ensures content starts from top */
-    background-image: url(images/som1.png);
+    background-image: url(images/som3.png);
     background-size: contain;
     background-position: right;
     background-repeat: no-repeat;
@@ -591,3 +591,4 @@ form textarea {
 .menu-toggle.active span:nth-child(3) {
   transform: rotate(-45deg) translate(6px, -6px);
 }
+
