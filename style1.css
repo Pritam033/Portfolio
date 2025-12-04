@@ -19,7 +19,7 @@ body {
     display: flex;
     flex-direction: column;
     justify-content: flex-start; /* Ensures content starts from top */
-    background-image: url(images/som3.png);
+    background-image: url(images/som1.png);
     background-size: contain;
     background-position: right;
     background-repeat: no-repeat;
@@ -295,7 +295,7 @@ footer .copyright {
 .btn .btn2{
     display: inline-block;
     background: #ff004f;
-    left:0;
+    padding-right: 20px;
 }
 
  .contact-right form {
@@ -459,6 +459,12 @@ form textarea {
         font-size: 0.75rem;
     }
 }
+.btn2{
+    display: inline-block;
+    background: #ff004f;
+    padding-right: 20px;
+}
+
 
 /* ========== Responsive for Desktop Screens (1025px and above) ========== */
 @media (min-width: 1025px) {
@@ -591,4 +597,3 @@ form textarea {
 .menu-toggle.active span:nth-child(3) {
   transform: rotate(-45deg) translate(6px, -6px);
 }
-
